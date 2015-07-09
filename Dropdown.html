@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>下拉菜单</title>
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="dropdown pull-right">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="true">
+            地铁线路
+            <span class="caret"></span>
+        </button>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                <li role="presentation" class="dropdown-header">地铁</li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">一号线</a></li>
+                <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">二号线</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">三号线</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">四号线</a></li>
+            </ul>
+    </div>
+</div>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
